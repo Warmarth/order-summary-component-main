@@ -13,9 +13,14 @@ body {
   display: grid;
   place-items: center;
   background-color: rgb(224, 232, 255);
-  background-image: url("./images/pattern-background-desktop.svg");
+  background-image: url("./images/pattern-background-mobile.svg");
   background-size: 100%;
   background-repeat: no-repeat;
+}
+@media screen and (min-width: 700px) {
+  body {
+    background-image: url("./images/pattern-background-desktop.svg");
+  }
 }
 .section {
   background-color: rgb(255, 255, 255);
@@ -27,17 +32,17 @@ body {
 }
 .top-img {
   width: 22rem;
+  height: 9.875rem;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
 
 .order-header {
+  margin: 20px auto;
   max-width: 20rem;
-  margin: 10px auto;
 }
 .order-header p {
-  margin-top: 10px;
-  margin-bottom: 15px;
+  margin: 10px 20px;
   font-size: 0.896rem;
   line-height: 1.5;
   color: rgb(141, 155, 173);
