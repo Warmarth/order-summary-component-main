@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.3s linear;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background-color: rgb(224, 232, 255);
+  background-image: url("./images/pattern-background-desktop.svg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.section {
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  width: 22rem;
+  height: 32rem;
+  border-radius: 10px;
+  box-shadow: 0 5px 1rem rgba(0, 0, 0, 0.4);
+}
+.top-img {
+  width: 22rem;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.order-header {
+  max-width: 20rem;
+  margin: 10px auto;
+}
+.order-header p {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  font-size: 0.896rem;
+  line-height: 1.5;
+  color: rgb(141, 155, 173);
+}
+
+.price_t {
+  height: 5rem;
+  margin: 1.2rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(248 250 252);
+  border-radius: 10px;
+}
+.annualPlan {
+  display: flex;
+  align-items: center;
+  font-size: 0.896rem;
+}
+.annualPlan .m-icon {
+  margin-right: 10px;
+}
+.price-text {
+  line-height: 1.5;
+}
+.price-text p {
+  color: rgb(141, 155, 173);
+}
+a {
+  cursor: pointer;
+  text-transform: capitalize;
+  font-weight: 900;
+  font-size: 0.756rem;
+}
+a:hover {
+  color: rgb(141, 155, 173);
+  text-decoration: none;
+}
+
+.btn button {
+  border-radius: 10px;
+  padding: 1rem 5rem;
+  margin-bottom: 0.756rem;
+  font-weight: 700;
+  cursor: pointer;
+  border: hidden;
+  transition: all 0.3s linear;
+  background-color: rgb(50, 23, 201);
+  color: aliceblue;
+}
+.btn a {
+  color: rgb(45, 42, 42);
+  text-decoration: none;
+}
+
+button:hover {
+  box-shadow: 0 5px 1rem rgba(0, 0, 0, 0.4);
+  background-color: rgb(106, 87, 218);
+}
