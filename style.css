@@ -67,6 +67,9 @@ body {
 }
 .price-text {
   line-height: 1.5;
+  & h2{
+    font-size: 15px;
+  }
 }
 .price-text p {
   color: rgb(141, 155, 173);
